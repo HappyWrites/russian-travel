@@ -5,25 +5,25 @@
   line-height: 16px;
   letter-spacing: 0em;
   text-align: center;
-  padding: 0px 25px 32px 22px;
+  padding: 0px 23px 0 35px;
 }
 
 @media screen and (min-width: 768px) {
   .cover__subtitle {
     font-size: 18px;
     line-height: 22px;
-    padding: 19px 205px 116px;
+    padding: 19px 205px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__subtitle {
-    padding: 16px 330px 193px;
+    padding: 16px 330px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__subtitle {
-    padding: 16px 460px 245px;
+    padding: 16px 460px 0;
   }
 }

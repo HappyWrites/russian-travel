@@ -4,8 +4,27 @@
   text-decoration: none;
   display: block;
   padding-top: 5px;
+  min-height: 200px;
 }
 
 .cover__overlay:hover {
   background-color: rgb(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    min-height: 740px;
+  }
 }

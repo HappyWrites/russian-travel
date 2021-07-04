@@ -6,7 +6,8 @@
 
 @media screen and (min-width: 768px) {
   .footer {
-    margin: 88px 24px 24px;
+    margin: 88px 24px 0;
+    padding-bottom: 24px;
     min-height: 0;
     display: flex;
     justify-content: space-between;
