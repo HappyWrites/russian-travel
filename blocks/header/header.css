@@ -24,7 +24,6 @@
 
 @media screen and (min-width: 1280px) {
   .header {
-    width: calc(100% - 96px);
     margin: 12px 48px 0;
   }
 }

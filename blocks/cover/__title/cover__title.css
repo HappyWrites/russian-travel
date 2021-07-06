@@ -5,26 +5,16 @@
   line-height: 35px;
   letter-spacing: 0em;
   text-align: center;
-  padding: 33px 45px 0 40px;
-  margin: 0;
+  padding: 35px 0 0;
+  margin: 0 auto 0;
+  max-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
   .cover__title {
     font-size: 72px;
     line-height: 76px;
-    padding: 111px 0 0;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover__title {
-    padding: 200px 75px 0px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover__title {
-    padding: 240px 200px 0px;
+    padding: 0;
+    max-width: 560px;
   }
 }
